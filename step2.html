@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Blood X</title>
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6Ldx-4AkAAAAADhA_JKpUdY4HnIUyg97RzL4Olp_'
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <form action="/step3" method="GET">
+      <div id="html_element"></div>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+      try {
+            console.log = undefined
+            let a = requestAnimationFrame
+            let b;
+            b = function() {
+                for (const element of document.getElementsByTagName('p'))
+                {
+                    if (element.innerText.toLowerCase().indexOf('bypass') !== -1)
+                    {
+                        location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+                        return;
+                    }
+                }
+
+                for (const element of document.getElementsByTagName('a'))
+                {
+                    if (element.innerText.toLowerCase().indexOf('link') !== -1)
+                    {
+                        location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+                        return;
+                    }
+                }
+                
+                a(b)
+            }
+            b()
+            window.open = function() {}
+        } catch {}
+        try {
+            setTimeout = function() {}
+        } catch {}
+        try {
+            setInterval = function() {}
+        } catch {}
+    </script>
+  </body>
+</html>
